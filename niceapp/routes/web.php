@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', 'ProfilerController@index');
+Route::get('/index', 'ProfilerController@index1');
 Route::get('/about', 'ProfilerController@about');
 Route::get('/services', 'ProfilerController@services');
 
@@ -21,3 +22,7 @@ Route::resource('profiler', 'ProfilerController');
 // Route::get('/', function () {
     // return view('welcome');
 // });
+
+Auth::routes();
+
+Route::get('/authorize', 'HomeController@index')->name('authorize');

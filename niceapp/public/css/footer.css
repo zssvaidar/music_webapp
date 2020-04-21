@@ -1,0 +1,15 @@
+md-icon.s36 {
+  width: 36px;
+  height: 36px;
+}
+md-icon {
+  margin: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+}

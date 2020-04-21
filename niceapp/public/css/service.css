@@ -1,0 +1,57 @@
+.service-col {
+  margin: 4px;
+  width:278px;
+}
+.top {
+  padding: 10px 0 0 0;
+  background-color: #2d344b;
+}
+.bottom {
+  padding: 20px 15px 5px 40px;
+  text-align: left;
+  background-color: #fff;
+}
+.bottom p {
+  font-size: 14px;
+
+}
+.service-fluid:nth-child() {
+  background-color: black;
+}
+.media-service{
+  width: 100%;
+  height: 650px;
+  background-image:url('./../img/blue_depths7130.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+span strong {
+}
+.media-content {
+
+}
+
+.service-item-head {
+  font-size: 16px;
+}
+.service-item-price strong{
+  font-size: 30px;
+  font-weight: 600;
+}
+.service-item-desc strong{
+  font-size: 12px;
+}
+
+.service-top {
+  padding: 25px 10px 35px 10px;
+  
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(190,190,190,.2);
+  background-color: rgb(250, 250, 250);
+}
+.service-top img{
+  width: 200px;
+  height: 200px;
+}

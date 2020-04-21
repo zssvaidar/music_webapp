@@ -1,0 +1,131 @@
+.table-wrapp {
+  margin-top:50px;
+  width: auto;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+tr, th, td {
+  display: flex;
+  justify-content: start;
+  height: 44px;
+  line-height: 44px;
+  vertical-align: middle;
+  font-weight: 500;
+  letter-spacing: .01em;
+}
+td {
+  line-height: 44px;
+  line-height: 44px;
+  vertical-align: middle;
+  color:	rgb(2, 5, 14);
+}
+tbody tr:hover {
+  background-color: rgb(238, 247, 250);
+}
+td div.card-menu {
+  min-width: 90px;
+  height: 32px;
+  margin: auto;
+  width: 80px;
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+}
+tr th:first-child {
+  padding: 0;
+}
+td div.card-menu{
+  line-height: 29px;
+  height: 29px;
+  font-size: 14px;
+}
+td div.card-menu i{
+  font-size: 18px;
+}
+td a {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: 700!important;
+}
+td a span {
+  
+  height: 29px;
+  line-height: 29px;
+}
+td a i{
+  margin: auto;
+}
+.table td, .table th {
+  padding:0 0 0 .75rem;
+}
+table tr td:last-child {
+  padding-left: 20%;
+}
+th strong{
+  font-size: 11px;   
+   color: #aaa;
+  letter-spacing:  2px;
+}
+th img {
+  border-bottom: 2px solid red;
+}
+
+.t-expand {
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+.service-fluid {
+  height: 700px;
+  width: 100%;
+  /* background-color: black; */
+}
+.content-wrapper:first-child {
+  padding-top:40px;
+  padding-bottom: 30px;
+}
+.bg-d {
+  background-color: black;
+}
+
+.input-group {
+  position: relative;
+  margin: 10px 0 5px 5px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  top: 8px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #4285f4;
+}
+

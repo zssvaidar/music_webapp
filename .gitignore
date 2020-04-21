@@ -1,2 +1,7 @@
 note.txt
+__pycache__/
+static_cdn/
 lsapp
+py_modeler
+media_cdn/
+.vscode

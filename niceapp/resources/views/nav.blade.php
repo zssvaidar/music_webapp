@@ -3,8 +3,11 @@
   <div class="">
     <ul>
         <li>
-          <a href="/">home</a>
+          <a href="/authorize">Authrorize</a>
         </li>
+        <li>
+          <a href="/">home</a>
+        </l>
         <li>
           <a href="/about">about</a>
         </li>
