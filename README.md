@@ -1,5 +1,4 @@
 <p align="center"><img src="info/index.png" width="400"></p>
-<img src="v5.png"  width="340" >
 <p align="center">
 <a href="#">
 <img src="#" alt="project"></a>

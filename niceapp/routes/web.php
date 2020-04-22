@@ -12,17 +12,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', 'ProfilerController@index');
-Route::get('/index', 'ProfilerController@index1');
 Route::get('/about', 'ProfilerController@about');
 Route::get('/services', 'ProfilerController@services');
 
 
 Route::resource('profiler', 'ProfilerController');
 // Route::get('/', function () {
-    // return view('welcome');
+// return view('welcome');
 // });
 
 Auth::routes();
-
-Route::get('/authorize', 'HomeController@index')->name('authorize');
+// Route::get('/authorize', 'HomeController@index')->name('login');
