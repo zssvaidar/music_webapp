@@ -1,3 +1,4 @@
+<p align="center"><img src="info/v12.png" ></p>
 <p align="center"><img src="info/index.png" width="400"></p>
 <p align="center">
 <a href="#">
