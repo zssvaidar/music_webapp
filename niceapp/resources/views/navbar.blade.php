@@ -20,8 +20,8 @@
               <a class="btn menu-btn" href="#">Contact</a>
           </span>
 
-          <div class="inline card-menu">
-              <i class="material-icons md-dark "></i>
+          <div class="inline card-menu primary-border no-border">
+              <i class="material-icons md-dark"></i>
             $0.00
           </div>
 

@@ -15,22 +15,21 @@
   font-size: 14px;
 
 }
-.service-fluid:nth-child() {
+.service-fluid:nth-child(1) {
   background-color: black;
 }
 .media-service{
   width: 100%;
   height: 650px;
-  background-image:url('./../img/blue_depths7130.png');
+  background-image:url('./img/blue_depths7130.png');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
-span strong {
-}
-.media-content {
-
-}
+// span strong {
+// }
+// .media-content {
+// }
 
 .service-item-head {
   font-size: 16px;
@@ -45,7 +44,6 @@ span strong {
 
 .service-top {
   padding: 25px 10px 35px 10px;
-  
   display: flex;
   justify-content: center;
   border: 1px solid rgba(190,190,190,.2);
