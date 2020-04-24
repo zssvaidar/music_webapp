@@ -86,9 +86,6 @@
   -moz-box-sizing: border-box;
    box-sizing: border-box;
 }
-.no-border {
-  border: none;
-}
 
 .card-menu a{
   color: white;
@@ -104,6 +101,9 @@
 }
 
 
+.no-border {
+  border: none!important;
+}
 .default-border {
   border: 2px solid #e0e0e0;transition: .2s
 }

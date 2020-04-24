@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Profiler;
+use App\MusicItem;
+
 
 class ProfilerController extends Controller
 {
@@ -13,7 +15,8 @@ class ProfilerController extends Controller
   {
     $data = array(
       'title' => 'index',
-      'services' => Profiler::all()
+      'services' => Profiler::all(),
+      'items' => MusicItem::all()
     );
 
     return view('page.index')->with($data);

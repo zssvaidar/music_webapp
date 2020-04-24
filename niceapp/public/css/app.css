@@ -11014,10 +11014,6 @@ ul {
   box-sizing: border-box;
 }
 
-.no-border {
-  border: none;
-}
-
 .card-menu a {
   color: white;
   font-weight: 600;
@@ -11030,6 +11026,10 @@ ul {
   height: 44px;
   line-height: 44px;
   font-weight: 600;
+}
+
+.no-border {
+  border: none !important;
 }
 
 .default-border {
@@ -11238,9 +11238,10 @@ input:valid ~ label {
 }
 
 .to_feature {
-  margin-top: 220px;
-  display: flex;
+  top: 220px;
   width: 100%;
+  position: relative;
+  display: inline-block;
   text-align: center;
 }
 

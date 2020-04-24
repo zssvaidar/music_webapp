@@ -16,6 +16,7 @@ class MpTable extends Migration
         Schema::create('music_files', function (Blueprint $table) {
             $table->id();
             $table->string('duration');
+            $table->string('bpm');
             $table->string('filename');
             $table->timestamps();
         });
@@ -64,12 +65,12 @@ class MpTable extends Migration
      */
     public function down()
     {
-        Schema::drop('music_files');
-        Schema::drop('mp_tags');
-        Schema::drop('mp_genre');
-        Schema::drop('mp_bag');
-        Schema::drop('offer_bag');
-        Schema::drop('offer_desciption');
-        Schema::drop('offer_item');
+        Schema::dropIfExists('music_files');
+        Schema::dropIfExists('mp_tags');
+        Schema::dropIfExists('mp_genre');
+        Schema::dropIfExists('mp_bag');
+        Schema::dropIfExists('offer_bag');
+        Schema::dropIfExists('offer_desciption');
+        Schema::dropIfExists('offer_item');
     }
 }
