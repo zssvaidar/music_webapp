@@ -1,0 +1,44 @@
+.contetnt-margin {
+  margin: 40px, 15px, 0, 15px;
+  
+}
+
+.market-heading {
+  opacity: 60;
+  padding: 10px; 
+}
+.market-item {
+  width: 100%;
+  margin-bottom:14px ;
+}
+.market-item-column {
+  display: block;
+  float: left;
+  width: 33%;
+  max-width: 33%;
+  min-width: 15%;
+  position: relative;
+  width: 70px;
+}
+.market-item-column:first-child {
+    width: 15%;
+    margin-right: 50px;
+    background-color: green;
+}
+
+#imgN {
+  padding: 24px;
+  background-color: red;
+}
+
+.market-item-column-row {
+  width: 270px;
+  display: block;
+  float: left;
+  clear: both;
+}
+
+#lyricsN{
+  background-color: red;
+  width: 100%;
+}

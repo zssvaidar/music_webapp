@@ -13,7 +13,7 @@
           <span class="navigation-main-menu flex-gt-sm  ">
               <a class="btn menu-btn" href="#">About</a>
 
-              <a class="btn menu-btn" href="#">Tracks</a>
+              <a class="btn menu-btn" href="{{ route('tracklist') }}">Tracks</a>
 
               <a class="btn menu-btn" href="#">Videos</a>
 

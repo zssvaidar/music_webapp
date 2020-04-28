@@ -14,8 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'ProfilerController@index');
+Route::get('/tracks', 'ProfilerController@tracks')->name('tracklist');
+Route::get('/index/file/download/{id}', 'ProfilerController@show')->name('downloadF');
+
 Route::get('/about', 'ProfilerController@about');
-Route::get('/services', 'ProfilerController@services');
+
 
 
 Route::resource('profiler', 'ProfilerController');

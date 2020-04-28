@@ -2,15 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
-@import 'variables';
+@import 'base/variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-@import 'main';
-@import 'navigation';
-@import "content-table";
-@import 'content';
-@import 'service';
+@import 'base/main';
+@import 'base/navigation';
+@import "index/content-table";
+@import 'index/content';
+@import 'index/service';
 @import 'responsive';
-@import 'footer';
+@import 'base/footer';
+
+
+@import 'market/market-content-table';

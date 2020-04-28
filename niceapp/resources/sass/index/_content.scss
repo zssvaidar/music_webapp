@@ -1,0 +1,169 @@
+.cover-big {
+  position: absolute;
+}
+
+#main-bg {
+  margin-top: 83px;
+  width: 100%;
+  height: 690px;
+  z-index: -150;
+  overflow: hidden;
+  position: absolute;
+  background-color: rgb(48, 65, 81);
+}
+#main-bg img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.hilights {
+  position: relative;
+  width: 100%;
+  z-index: -150;
+  top: 640px;
+  height: 133px;
+  background-color: 	rgb(229, 115, 115);
+}
+.to_feature {
+  top: 220px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+/* background cover */
+.content-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  width: 1250px;
+  padding-top: 280px;
+}
+.headline-feature{
+  display: flex;
+  position: relative;
+  padding-top: 90px;
+}
+.headline-feature img {
+  float: left;
+}
+
+.data-content {
+  padding-left: 190px;
+  margin-bottom: 30px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.track-tag {
+  padding: 0 10px;
+  max-width: 100px;
+  display: inline-block;
+  float: right;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-left:5px;
+   height: 22px;
+   line-height:22px;
+}
+.track-tag:hover a{
+  text-decoration-line: underline!important;
+}
+.track-tag a {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  overflow: hidden;   
+  text-overflow: ellipsis;
+  line-height:18px;
+  height: 18px;
+  white-space: nowrap;
+}
+.track-tag-h {
+  border: 2px solid #e57373;
+}
+.track-tag-gh {
+  border: 1px solid #ccc;
+  /* cursor: pointer; */
+  /* padding: 0 88px 0 6px; */
+  margin: auto 5px auto 0;
+}
+.track-tag-gh a{
+  /* display: block; */
+  color:#aaa ;
+  line-height: 22px;
+  height: 22px;
+}
+.box-column {
+  width: auto;
+  float: right;
+  margin-left: 50px;
+  color:#fff;
+}
+.box-column h4{
+  margin-bottom: 5px;
+}
+
+span.box-column div.card-menu {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+span.box-column div.card-menu i{
+  margin: auto;
+}
+span.box-column  div.card-menu i:last-child{
+  padding:0 5px 0 50px;
+}
+.data-content h4 {
+  color: #fff;
+  text-transform: uppercase;
+    font-weight: bold;
+}
+.feature-desc{  
+  width: auto;
+  margin: 35px 0 0 20px;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+
+.feature-desc h2 {
+  font-weight: 600;
+  color:#fff;
+}
+h4.track-label {
+color: rgb(255, 112, 91);
+font-size: 11px;
+font-weight: bold;
+}
+
+span.label {
+  background-color: rgba(205,205,205,.3);
+  width: auto;
+  max-width: 96px;
+  display: inline-block;
+  height: 24px;
+  padding: 0 10px;
+  margin: 0;
+  letter-spacing: 2px;
+  line-height: 24px;
+  vertical-align: middle;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.intense {
+  background-color: rgba(205,205,205,.3);
+  border: 1px solid rgba(235,235,235,.8);
+  color: #fff;
+}
+.text-c {
+  text-transform: uppercase;
+}

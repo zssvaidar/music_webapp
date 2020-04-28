@@ -47,6 +47,44 @@
       $('#loginModal').trigger('hide')
     })
 
+    var playing = false;
+      var idx = -1;
+     
+      var sites = {!! json_encode($services ) !!};
+      
+    
+      function updatePlayer(id) {
+     
+        console.log(id, playing);
+        var myMusic= document.getElementById("playermusic");
+      var myMusicsrc= document.getElementById("musicsrc");
+        if(id==idx&& playing==false)
+        {
+          myMusic.play();
+          playing=true;
+        }
+        else
+          if(playing && idx==id)
+          {
+            myMusic.pause();
+            playing=false;
+          } else
+            if(idx!=id)
+            {
+              for (i = 0; i < sites.length; i++) 
+                if(sites[i].id == id)
+                {
+                  idx=id;
+                  playing=true;
+                
+                  myMusicsrc.src = "https://storagemusicapp.blob.core.windows.net/musicstorage/" + sites[i].url;
+                  myMusic.load();
+                  myMusic.play();
+                  break;
+                }
+              }
+      }
+      
     </script>
 
   </body>

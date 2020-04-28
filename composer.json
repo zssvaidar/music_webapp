@@ -1,0 +1,5 @@
+{
+    "require": {
+        "matthewbdaly/laravel-azure-storage": "^1.3"
+    }
+}
